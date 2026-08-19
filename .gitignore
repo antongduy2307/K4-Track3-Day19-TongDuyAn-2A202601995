@@ -21,6 +21,8 @@ env/
 *.csv
 golden_dataset.csv
 !reports/*.csv
+!outputs/*.csv
+!data/*.csv
 *.jsonl
 *.parquet
 *.pq
@@ -28,3 +30,16 @@ golden_dataset.csv
 # OS files
 .DS_Store
 Thumbs.db
+
+.omc/
+docs/
+
+# Local working files (không thuộc deliverables)
+data_local/
+papermill_run.log
+papermill_err.log
+
+# Personal docs của An (reports/ ngày — tách khỏi lab_report.md deliverable)
+reports/20*/
+notes/
+plans/
